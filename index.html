@@ -183,7 +183,7 @@
         var currentPage = document.querySelector('.pagination .page.active');
         var nextPage = currentPage.nextElementSibling;
 
-        if (nextPage && !nextPage.classList.contains('next')) {
+        if (nextPage && !nextPage.classList.contains('extra')) {
             window.location.href = nextPage.href;
         }
     });
